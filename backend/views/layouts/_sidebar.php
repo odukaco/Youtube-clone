@@ -1,6 +1,5 @@
-<?php
-
-echo \yii\bootstrap5\Nav::widget([
+<aside class="shadow">
+<?php echo \yii\bootstrap5\Nav::widget([
     'options'=>[
         'class' => 'd-flex flex-column nav-pills'
     ],
@@ -14,6 +13,5 @@ echo \yii\bootstrap5\Nav::widget([
             'url'=>['/video/index']
         ]
     ]
-])
-
-?>
+]) ?>
+</aside>
